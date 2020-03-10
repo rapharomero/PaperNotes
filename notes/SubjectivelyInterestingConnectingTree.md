@@ -22,5 +22,5 @@ In the article, several possible prior beliefs presented, as well as  an efficie
 ### Algorithm to find the most SI patterns on a graph
 Once the measure of SI is defined, the problem of finding the most SI arborescence on a graph can be casted into a minimum Steiner arborescence, which is NP Hard.
 In the case where the background distribution is uniform, several heuristics exist and can be used to solve the problem.
-For the other cases, fast heuristics are presented in the articles to solve the problem.
+For other cases, fast heuristics are presented in the article to solve the problem.
 The algorithm to find the most SI arborescence on a graph can then be adapted for solving the problem for other types of patterns (trees, forests and branchings)).
