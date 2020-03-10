@@ -9,7 +9,7 @@ They usually rely on three steps:
 - Definition of a cost function that will penalize large distance in the embedding space for similar points and small distances for dissimilar points.
 
 ### Limitations of previous methods
-The current methods often fail to capture some structural information naturally present in the graph.
+The current methods often fail to capture some structural information naturally present in graphs.
 
 ### Proposed method
 CNE tries to incorporate this prior information by using a Bayesian approach:
