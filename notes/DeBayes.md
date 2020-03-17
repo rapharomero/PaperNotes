@@ -18,21 +18,15 @@ Here are examples of fairness measures:
  - **Acceptance rate parity**: the acceptance rate between two subgroups is the proportion of edges that appear it the top-k% highest prediction scores. The acceptance rate parity is the variance of this quantity over the possible attribute value pairs.
 
 ### DeBayes method
-DeBayes methods makes use of the CNE framework to compute a debiased network embedding.
-
-The prior is determined by finding the Maximum Entropy distribution of the possible graphs, under a constraint on the expected number of neighbours having each sensitive attribute. (This expectation must be equal to the observed one).
-
-Then the embedding is computed using Bayes and by solving the Maximum Likelihood problem.
-
+DeBayes methods makes use of the CNE framework to compute a debiased network embedding.  
+The prior is determined by finding the Maximum Entropy distribution of the possible graphs, under a constraint on the expected number of neighbours having each sensitive attribute. (This expectation must be equal to the observed one).  
+Then the embedding is computed using Bayes and by solving the Maximum Likelihood problem.  
 The link prediction problem can then be solved since the posterior probability factorizes with respect to the edges, so the edges probabilities can be computed directly using marginalization.
 
 ### Evaluation
-The model is evaluated on the problem of link prediction on two datasets: DBLP(co-authorship network) and Movielens-100k (recomander system dataset).
-
-It is compared to Compositional Fairness Contraints, Fairwalk and a uniformly random link predictor.
-
-The Representation Bias is measured using 2 classifiers : Logistic Regression and SVM with non-linear kernel.
-
+The model is evaluated on the problem of link prediction on two datasets: DBLP(co-authorship network) and Movielens-100k (recomander system dataset).  
+It is compared to Compositional Fairness Contraints, Fairwalk and a uniformly random link predictor.  
+The Representation Bias is measured using 2 classifiers : Logistic Regression and SVM with non-linear kernel.  
 The DeBayes method yields good results both in terms of high-level fairness measures, as well as on prediction quality.
 
 ##### Personal Remarks:
