@@ -19,7 +19,7 @@ Here are examples of fairness measures:
 
 ### DeBayes method
 DeBayes methods makes use of the CNE framework to compute a debiased network embedding.  
-The prior is determined by finding the Maximum Entropy distribution of the possible graphs, under a constraint on the expected number of neighbours having each sensitive attribute. (This expectation must be equal to the observed one).  
+The prior is determined by finding the Maximum Entropy distribution over the possible graphs, under a constraint on the expected number of neighbors having each sensitive attribute. (This expectation must be equal to the observed one).  
 Then the embedding is computed using Bayes and by solving the Maximum Likelihood problem.  
 The link prediction problem can then be solved since the posterior probability factorizes with respect to the edges, so the edges probabilities can be computed directly using marginalization.
 
