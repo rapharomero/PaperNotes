@@ -21,6 +21,9 @@ It can be seen that the prior label information affects the repelling forces: if
 In order to make the gradient evaluation feasable for big datasets, an approach derived from the Barnes-Hut tree algorithm is adopted.
 It allows a final complexity in O(L . n . log(n)), L being the number of labels and n the number of data points.
 
+### Experiments and results
+Several quantitative experiments are conducted to assess the quality of the experiments. In order to quantify the homogeneity of a label within a particular low-dimensional cluster, the **Laplacian score** is introduced. It's computed as the sum of the cluster-wise homogeneity for each label using the Laplacian matrix of the kNN graph (graph in which each point is connected to its k nearest neighbors).
+On a Synthetic dataset and a Facebook Dataset, it is shown that the ct-SNE method leads to embeddings that do not encode the prior information. 
 
 Remarks:
 - In the computation of the label conditional distribution, one must remind that the number of elements within each class is fixed by the label matrix given as input. Else the coefficients would have been found by counting the number of upper triangular binary matrix with the diagonal + 1 element fixed to 1.
