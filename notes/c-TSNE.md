@@ -11,5 +11,5 @@ In t-SNE, two distribution over the pairs of data points are defined: one using 
 ### Conditional t-SNE
 Conditional t-SNE works the same way as t-SNE, but by taking into account prior information on the data points. This prior information is supposed to be categorical and is stored in a square binary matrix, representing whether or not two data points have the same label or not.  
 Then the KL divergence between the distribution derived from high dimensional embeddings and the distribution derived from the low-dimensional embedding *conditioned* on the label matrix is minimized.  
-Doing this ensures that the lower dimensional embeddings don't have the burden of ensuring that points in the same class have close representations.  
+Doing this ensures removes the burden of ensuring that points in the same class have close representations from the embedding task.
 Indeed, using Bayes Rule this information can be captured in another factor, which is the likelihood of the label matrix given the pair of points that was drawn according to the distribution derived from the low-dimensional representations.
