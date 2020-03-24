@@ -1,4 +1,4 @@
-# UMAP: Uniform ManifoldApproximation and Projection forDimension Reduction
+# UMAP: Uniform Manifold Approximation and Projection forDimension Reduction
 
 ### Goal of the paper
 This paper introduces a neighbor graph based dimension reduction method called UMAP.
