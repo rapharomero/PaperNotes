@@ -11,3 +11,4 @@ Notes taken while reading scientific papers
 
 [DeBayes: A Bayesian method for debiasing network embeddings](https://github.com/rapharomero/PaperNotes/blob/master/notes/DeBayes.md)
 
+[Conditional t-SNE: Complementary t-SNE embeddings through factoring out prior information](https://github.com/rapharomero/PaperNotes/blob/master/notes/c-TSNE.md)
