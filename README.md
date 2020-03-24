@@ -13,4 +13,4 @@ Notes taken while reading scientific papers
 
 [Conditional t-SNE: Complementary t-SNE embeddings through factoring out prior information](https://github.com/rapharomero/PaperNotes/blob/master/notes/c-TSNE.md)
 
-[UMAP: Uniform Manifold Approximation and Projection forDimension Reduction](https://github.com/rapharomero/PaperNotes/blob/master/notes/UMAP.md)
+[UMAP: Uniform Manifold Approximation and Projection for Dimension Reduction](https://github.com/rapharomero/PaperNotes/blob/master/notes/UMAP.md)
