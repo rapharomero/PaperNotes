@@ -1,6 +1,8 @@
 # Paper Notes
 Notes taken while reading scientific papers
 
+## [Information theoretical approach to KL divergence](https://github.com/rapharomero/PaperNotes/blob/master/notes/InformationTheory/Information%20Theory.ipynb) ##
+
 ## Papers read already:
 
 [Conditional Networks Embeddings](https://github.com/rapharomero/PaperNotes/blob/master/notes/ConditionalNetworkEmbeddings.md)
