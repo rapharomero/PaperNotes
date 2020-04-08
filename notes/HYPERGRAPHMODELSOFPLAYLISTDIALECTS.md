@@ -30,7 +30,7 @@ The edges weights are assumed to be iid samples of an iid exponential prior dist
 ### Estimation
 The (non concave) Maximum a posteriori is maximized using the L-BFGS-B algorithm. The convergence is fast (a few seconds, even for large playlist datasets).
 
-##Dataset
+## Dataset
 
 A new dataset is built for evaluation : Art-of-the-mix 2011.
 It contains approx. 100k playlists with artist names, timestamps and categorical labels.
