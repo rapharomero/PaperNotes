@@ -1,4 +1,4 @@
-#Hypergraph models of playlist dialects
+# Hypergraph models of playlist dialects
 
 ## Goal of the paper
 A playlist generation model is proposed. It is based on a modelling of playlist dialects using a structure called hypergraphs.
