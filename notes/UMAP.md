@@ -14,7 +14,7 @@ So for each representations, the operation breaks down into two steps:
 
 
 ### Manifold Approximation
-The goal here approximate the manifold where the data lies by a Riemannian manifold such that *the data is approximately uniformly distributed according to the associated metric*.  
+The goal here is to approximate the manifold where the data lies by a Riemannian manifold such that *the data is approximately uniformly distributed according to the associated metric*.  
 A Riemannian metric is defined in the neighborhood of each data point, by normalizing the ambient distance by the distance to the k-th nearest neighbor of the data point. A Lemma proven in the paper justifies this solution.  
 Doing this makes the hypothesis that the data is uniformly distributed hold *for the metric that is introduced*.
 
