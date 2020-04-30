@@ -17,4 +17,6 @@ Notes taken while reading scientific papers
 
 [UMAP: Uniform Manifold Approximation and Projection for Dimension Reduction](https://github.com/rapharomero/PaperNotes/blob/master/notes/UMAP.md)
 
+[Hypergraph Models of Playlist Dialects](https://github.com/rapharomero/PaperNotes/blob/master/notes/HYPERGRAPHMODELSOFPLAYLISTDIALECTS.md)
+
 Gaussian Processes Over Graphs
