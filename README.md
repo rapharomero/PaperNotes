@@ -20,3 +20,6 @@ Notes taken while reading scientific papers
 [Hypergraph Models of Playlist Dialects](https://github.com/rapharomero/PaperNotes/blob/master/notes/HYPERGRAPHMODELSOFPLAYLISTDIALECTS.md)
 
 Gaussian Processes Over Graphs
+
+To Read
+https://arxiv.org/pdf/cond-mat/0405566.pdf
