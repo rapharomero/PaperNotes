@@ -16,3 +16,10 @@ Notes taken while reading scientific papers
 [Conditional t-SNE: Complementary t-SNE embeddings through factoring out prior information](https://github.com/rapharomero/PaperNotes/blob/master/notes/c-TSNE.md)
 
 [UMAP: Uniform Manifold Approximation and Projection for Dimension Reduction](https://github.com/rapharomero/PaperNotes/blob/master/notes/UMAP.md)
+
+[Hypergraph Models of Playlist Dialects](https://github.com/rapharomero/PaperNotes/blob/master/notes/HYPERGRAPHMODELSOFPLAYLISTDIALECTS.md)
+
+Gaussian Processes Over Graphs
+
+To Read
+https://arxiv.org/pdf/cond-mat/0405566.pdf
